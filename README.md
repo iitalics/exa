@@ -8,7 +8,7 @@ racket library for simulations with simple derivatives
 (require exa)
 (define 1d-sys
   (generate-sys
-   (cfg g) = -9.8
+   (cfg g) = 9.8
    (d/dt v #:init v-0) = (- g)
    (d/dt y #:init y-0) = v))
 
